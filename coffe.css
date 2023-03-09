@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Roboto:ital,wght@0,300;1,300&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:'Montserrat', sans-serif;
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgb(0, 0, 0,.5);
+    background: black;
+
+}
+.navbar .navbar-brand{
+    font-size: 23px;
+    font-weight: 800;
+
+}
+
+#navbarSupportedContent a{
+    color: white;
+
+
+
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid rgb(0, 128, 0);
+    
+}
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+
+/*-----home------*/
+#home{
+    background-image:linear-gradient(rgb(0, 0, 0,.3),rgb(0, 0, 0.4)),url(../project/icon/side);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    background-position:center; 
+   
+}
+    
+
+#home h1{
+    font-size: 100px;
+    color: white;
+    letter-spacing: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#home p{
+    color: white;
+    font-size:15px;
+}
+#home .input-group{
+    width: 30%;
+    height: 40px;
+}
+
+.signin{
+    background-color: green !important;
+    color: white !important;
+}
+
+/*-----about------*/
+#about{
+    color: green;
+
+}
+
+
+
+
+
+/*<----product-- --->*/
+
+#product h1{
+    font-size: 56px;
+    font-weight: 700;  
+
+}
+
+
+ 
+/*----contact-------*/
+
+
+#contact{
+    text-align: center;
+    width: 100%;
+    height: 70vh;
+    margin: 5% 0px;
+
+}
+#contact h1{
+    font-size: 52px;
+    font-weight: 500;
+
+}
+#contact p{
+    color: green;
+
+}
+    
+
+
+
